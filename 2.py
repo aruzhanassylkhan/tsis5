@@ -1,7 +1,7 @@
 import re
 string = input()
 
-x = 'ab*?'
+x = 'rab*?'
 if re.search(x, string):
     print('matched')
 else:
